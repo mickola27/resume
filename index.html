@@ -4,103 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
 </head>
 <body>
     <!-- Main-->
-    <div>
+    <div class="main">
         <!--Main content-->
-        <div>
+        <div class="main-content">
             <!--about user-->
-            <div>
-                <h2>Full Stack developer</h2>
-                <h1>Mykola Komziuk</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum harum facilis, possimus commodi eaque alias adipisci quos eius. Sapiente, aliquid. 
+            <div class="about">
+                <h2 class="about-position">Full Stack developer</h2>
+                <h1 class="about-name">Mykola Komziuk</h1>
+                <p class="about-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum harum facilis, possimus commodi eaque alias adipisci quos eius. Sapiente, aliquid. 
                 </p>
             </div>
         <!--projects-->
-            <div>
-                <h3>Projects</h3>
-                <ol>
-                    <li><a href="https://mickola27.github.io/resume/">https://mickola27.github.io/resume/</a>................ [HTML, CSS]</li>
-                    <li><a href="https://mickola27.github.io/homework/">https://mickola27.github.io/homework/</a>........... [JavaScript]</li>
-                    <li><a href="https://mickola27.github.io/project-group/">https://mickola27.github.io/project-group/</a>...... [React.js, Node.js]</li>
+            <div class="projects">
+                <h3 class="title">Projects</h3>
+                <ol class="projects-list">
+                    <li class="project-item"><span class="project"><a href="https://mickola27.github.io/resume/" class="project-link">https://mickola27.github.io/resume/</a>
+                        ..................... <span class="project-bracket">[</span>HTML, CSS <span class="project-bracket">]</span> </span>
+                    </li>
+                    <li class="project-item"><span class="project"><a href="https://mickola27.github.io/homework/" class="project-link">https://mickola27.github.io/homework/</a>
+                        ............. <span class="project-bracket">[</span>JavaScript <span class="project-bracket">]</span> </span>
+                    </li>
+                    <li class="project-item"><span class="project"><a href="https://mickola27.github.io/project-group/" class="project-link">https://mickola27.github.io/project-group/</a>
+                        ...... <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span> </span>
+                    </li>
                 </ol>
             </div>
         <!--Work-->
-        <div>
-            <h3>Work Experience</h3>
+        <div class="work">
+            <h3 class="title">Work Experience</h3>
             <!--Company1-->
             <div>
-                <h4>Front-End Developer Freelance</h4>
-                <p>September 2019-up to now | Ukraine </p>
-                <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
-                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, cumque!</li>
+                <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span> </h4>
+                <p class="period">September 2019-up to now <span class="line">|</span> Ukraine </p>
+                <ul class="work-list">
+                    <li class="work-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
+                    <li class="work-list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, cumque!</li>
                 </ul>
             </div>
             <!--company2-->
             <div>
-                <h4>Manager Roga & Kopyta New</h4>
-                <p>March 2015 - October 2017 | Ukraine </p>
-                <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
-                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
+                <h4 class="work-position">Manager <span class="organization">Roga & Kopyta New</span> </h4>
+                <p class="period">March 2015 - October 2017 <span class="line">|</span> Ukraine </p>
+                <ul class="work-list">
+                    <li class="work-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
+                    <li class="work-list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
                 </ul>
             </div>
             <!--company3-->
             <div>
-                <h4>Manager Roga & Kopyta LLC</h4>
-                <p>April 2014 - February 2015  | Ukraine </p>
-                <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
-                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
+                <h4 class="work-position">Manager <span class="organization">Roga & Kopyta LLC</span> </h4>
+                <p class="period">April 2014 - February 2015 <span class="line">|</span> Ukraine </p>
+                <ul class="work-list">
+                    <li class="work-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, laudantium! </li>
+                    <li class="work-list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ex?</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, temporibus!</li>
                 </ul>
             </div>
-        <div>
-            <h3>Education</h3>
-            <h4>Kamianets-Podilsky National University</h4>
-            <h5>Teacher physics & informatics</h5>
-            <p>September 2006 - Jule 2012 | Ukraine</p>
-            
+        
         </div>
+        <!--Education-->
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <h4 class="university">Kamianets-Podilsky National University</h4>
+            <h4 class="department">Teacher physics & informatics</h4>
+            <p class="period">September 2006 - Jule 2012 <span class="line">|</span> Ukraine</p>
         </div>
         </div>
         <!--Sidebar-->
-        <aside>
-            <img src="./images/IMG_20210904_190911.jpg" alt="my photo">
+        <aside class="sidebar">
+            <img src="./images/my-photo.png" alt="my photo" class="photo">
             <!--contacts-->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
-                    <p>C: <a href="tel:+380979601288"> +380979601288</a></p>
-                    <p>E: <a href="mailto:mickola27@gmail.com"> mickola27@gmail.com</a></p> 
+                    <p>
+                        <span class="contact-type">C:</span>  <a href="tel:+380979601288" class="contact-link"> +380979601288</a></p>
+                    <p> 
+                        <span class="contact-type">E:</span>
+                         <a href="mailto:mickola27@gmail.com" class="contact-link"> mickola27@gmail.com</a></p> 
                 </div>
             <!--Tech Skills-->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">CSS</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">React.js</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li>
                 </ul>
             </div>
             <!--Soft Skills-->
-            <div>
-                <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+                <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
+                <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
+                <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
+                <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
             </ul>
             </div>
             </div>
